@@ -1,0 +1,140 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+
+a
+{
+    color: #7F3734;
+    text-decoration: none;
+    transition: color 0.25s;
+}
+a:hover
+{
+    color: green;
+}
+
+body
+{
+    /* structure */
+    margin: 0 auto;
+    padding: 1em;
+    min-height: 100%;
+    width: 90%;
+
+    /* presentation */
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFFFFF;
+
+}
+
+html
+{
+    /* structure */
+    height: 100%;
+
+    /* presentation */
+    background-color: #F8FFF2;
+}
+
+h1
+{
+    color: green;
+}
+
+
+.order-form-customer
+{
+    /* structure */
+    padding: 1em 0;
+
+    /* presentation */
+    text-align: right;
+}
+
+.home{
+    float: right;
+}
+
+
+.standard-table
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+.standard-table caption
+{
+    /* structure */
+    padding: 0.5em 0;
+
+    /* presentation */
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.standard-table tbody tr
+{
+    transition: background-color 0.25s;
+}
+.standard-table tbody tr:nth-child(even),
+.standard-table tfoot tr:nth-child(even)
+{
+    background-color: #DFE5DA;
+}
+.standard-table tbody tr:nth-child(odd),
+.standard-table tfoot tr:nth-child(odd)
+{
+    background-color: #BABFB5;
+}
+.standard-table tbody tr:hover
+{
+    
+    cursor: default;
+}
+.standard-table td,
+.standard-table th
+{
+    padding: 0.25em 0.5em;
+}
+.standard-table th
+{
+    color: green;
+}
+.standard-table tfoot tr,
+.standard-table thead tr
+{
+    text-align: left;
+}
+.standard-table tfoot tr,
+.standard-table .money-column
+{
+    text-align: right;
+}
+
+
+caption{
+    margin-top: 150px;
+}
+th{
+    padding: 10px;
+}
+
+img{
+    margin-left: 290px;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 200px;
+    border: solid 3px green;
+    
+    }
+
+
+th, tr{
+    text-align: center;
+    height: 30px;
+}
+
+td{
+    height: 30px;
+}
+h3{
+    text-align: center;
+    margin-top: 80px;
+}
